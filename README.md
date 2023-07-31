@@ -44,15 +44,15 @@
 - Policy can have many permissions.
 - It is written in a json.
 - Precedence highest to lowest:
-1. Resource based
-2. Session policies
-3. Identity based
+  1. Resource based
+  2. Session policies
+  3. Identity based
 - Components of a policy:
-1. Effect
-2. Action
-3. Resource
-4. Condition
-5. Principal
+  1. Effect
+  2. Action
+  3. Resource
+  4. Condition
+  5. Principal
 
 ## S3
 -	Object storage solution, considers every file as an object
