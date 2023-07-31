@@ -1,11 +1,3 @@
-## Region and Availability Zones
-
-**Region:** Geographic areas that AWS uses to house its infrastructure. These are distributed around the world. The closer the network, lower is the network latency.
-
-**Availability Zone:** Each region has multiple AZs. The availability zones in a region are connected using fibre optic cables.
-
-![image](https://github.com/Adityasr30/AWS_Services/assets/86728825/1893450f-d421-482c-8b9c-ffab15397772)
-
 ## AWS Services
 1. IAM
 2. S3
@@ -22,6 +14,14 @@
 13. Athena
 14. Cloud formation
 15. Airflow
+
+## Region and Availability Zones
+
+**Region:** Geographic areas that AWS uses to house its infrastructure. These are distributed around the world. The closer the network, lower is the network latency.
+
+**Availability Zone:** Each region has multiple AZs. The availability zones in a region are connected using fibre optic cables.
+
+![image](https://github.com/Adityasr30/AWS_Services/assets/86728825/1893450f-d421-482c-8b9c-ffab15397772)
 
 ## IAM
 - Identity access and management
