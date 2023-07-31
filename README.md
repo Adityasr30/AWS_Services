@@ -13,7 +13,6 @@
 12. Kinesis
 13. Athena
 14. Cloud formation
-15. Airflow
 
 ## Region and Availability Zones
 
@@ -82,6 +81,20 @@
 2. Analytics
 -	ACL disabled: only the account owner can access the bucket.
 
+## EC2
+
+- Compute service provided by AWS that allows you to launch and manage virtual machines, known as instances, in the cloud.
+- Virtual machines (instances): virtual servers that run in the AWS cloud.
+- Flexible scaling
+- Various operating systems: Amazon linux, ubuntu, windows server, centos etc.
+- Persistent storage: EBS volumes.
+- Load balancing: ELB is used to distribute incoming traffic across multiple instances.
+- EC2 pricing
+1. On demand instances: pay by hour.
+2. Reserved instances: instance for a specified duration (1 year or 3 years).
+3. Spot instances: bid on unused EC2 capacity, and pay the current spot price.
+4. Dedicated hosts: pay for entire physical server. 
+
 ## VPC
 -	LAN on AWS
 -	Purpose: keeping data safe
@@ -125,6 +138,12 @@
 - Event: It the input data that triggered the lambda function. It can be a S3 object creation, API gateway request etc.
 - Context: provides information about runtime environment and the execution context of lambda function.
 
+## API Gateway
+
+- Service provided by AWS that makes it easy to create, deploy, and manage APIs.
+- It acts as a front door to your backend services, allowing you to expose your application functionality to external clients and developers in a secure and scalable way.
+- Types of request: GET, POST, PUT, DELETE.
+
 ## SQS
 
 - Queuing service.
@@ -156,6 +175,18 @@ SQS is focused on message queuing and decoupling application components, while S
 - Provisioned Throughput: DynamoDB allows you to provision read and write capacity for your tables to ensure the desired level of performance. You can specify the number of read capacity units (RCUs) and write capacity units (WCUs) to be allocated to the table. Provisioned throughput is measured in RCUs and WCUs, where each unit represents one read or write operation per second for items up to 4 KB in size.
 - Types of table class: DynamoDB standard and DynamoDB IA
 
+## EMR
+
+- Cloud based big data processing service.
+- Managed hadoop frameworks: EMR enables you to launch and manage hadoop clusters.
+- Scalable
+- Suppport for various frameworks: supports hadoop, spark, hive, hbase, etc.
+- Cluster: group of EC2 instances.
+- Instance types: EMR supports various instance families, such as General Purpose, Memory Optimized, Compute Optimized, and GPU instances.
+- HDFS: distributed file system that allows EMR to store data across multiple nodes in the cluster.
+- YARN: resource manager
+- MapReduce: processing model
+
 ## Kinesis
 
 - Real-time streaming and processing service for large amounts of data.
@@ -177,7 +208,3 @@ SQS is focused on message queuing and decoupling application components, while S
 - It enables you to use a template to describe the resources you want to create, modify, or delete, and CloudFormation takes care of the provisioning and management of those resources.
 - Infrastructure as Code (IaC): CloudFormation enables you to define your infrastructure as code using JSON or YAML templates.
 - Declarative templates.
-
-## Airflow
-
-- Open source platform for orchestrating complex workflows and data pipelines.
