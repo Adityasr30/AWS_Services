@@ -114,7 +114,7 @@
 -	Api endpoint: URL used to interact with an application or service throught an API.
 
 ## Glue
-- ETL servie, data catalog, data integration.
+- ETL service, data catalog, data integration.
 - Offers both visual and code based interfaces.
 - Catalog: stores metadata
 - Classier: determines schema of the data.
